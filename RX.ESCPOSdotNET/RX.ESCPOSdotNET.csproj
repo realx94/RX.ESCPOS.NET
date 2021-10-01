@@ -5,7 +5,7 @@
     <PackageId>RX.ESCPOS.NET</PackageId>
     <Authors>RX.ESCPOS.NET</Authors>
     <Product>RX.ESCPOS.NET</Product>
-    <PackageProjectUrl>https://github.com/realx94</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/realx94/RX.ESCPOS.NET</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
