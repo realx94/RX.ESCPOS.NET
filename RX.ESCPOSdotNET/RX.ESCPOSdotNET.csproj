@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <PackageId>RX.ESCPOS.NET</PackageId>
+    <Authors>RX.ESCPOS.NET</Authors>
+    <Product>RX.ESCPOS.NET</Product>
+    <PackageProjectUrl>https://github.com/realx94</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RX.ESCPOS.NET\RX.ESCPOS.NET.csproj" />
+  </ItemGroup>
+
+</Project>
