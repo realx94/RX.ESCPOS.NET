@@ -6,7 +6,20 @@
     <Authors>RX.ESCPOS.NET</Authors>
     <Product>RX.ESCPOS.NET</Product>
     <PackageProjectUrl>https://github.com/realx94/RX.ESCPOS.NET</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LICENSE.txt" />
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="LICENSE.txt" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RX.ESCPOS.NET\RX.ESCPOS.NET.csproj" />
